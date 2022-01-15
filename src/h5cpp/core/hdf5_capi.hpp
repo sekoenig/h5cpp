@@ -29,6 +29,9 @@
 //
 // This hack is necessary to get MPI, HDF5 and C++ build together
 //
+
+#include <h5cpp/core/with_mpi.hpp>
+
 #ifdef WITH_MPI
 #include <mpi.h>
 #endif
